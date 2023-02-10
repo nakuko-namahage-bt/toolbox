@@ -61,6 +61,7 @@
 - editor.fontFamily -> Consolas, monospace
 - editor.tabSize -> 4
 - editor.renderWhitespace -> All
+- editor.showUnused -> Uncheck
 
 ### ユーザスニペット
 - `File -> Preference -> Configure User Snippets` で言語ごとのスニペット(テキストフォーマット)を設定。
