@@ -43,7 +43,7 @@ flowchart RL
 ----------------------------------------
 1. リモートリポジトリをクローンしたいディレクトリに移動する。
     ```sh
-    $ cd <clone_distination_directory
+    $ cd <clone_distination_directory>
     ```
 2. クローンする。
     ```sh
