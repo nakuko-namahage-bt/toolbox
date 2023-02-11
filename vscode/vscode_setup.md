@@ -98,8 +98,8 @@
 #### Markdown All in One設定
 - 現在のタブ幅を継承するようにする。
     - markdown.extension.list.indentationSize -> inherit
-- 自動プレビュー表示を有効化する。
-    - markdown.extension.preview.autoShowPreviewToSide -> Check
+- 自動プレビュー表示を無効化する。
+    - markdown.extension.preview.autoShowPreviewToSide -> Uncheck
 - 目次の自動更新
     - markdown.extension.toc.updateOnSave -> Uncheck
 - 目次化する見出しレベルをh2タグのみとする。
