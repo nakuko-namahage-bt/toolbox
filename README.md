@@ -15,6 +15,6 @@
 
 ## Sample
 ----------------------------------------
-- [Manual sample](manual_sample)
+- [Manual format](manual_format)
 - [UNIX domain socket](unix_domain_socket), C
 
