@@ -1,5 +1,6 @@
 # General settings
 ARTIFACT = sample_app
+RM = rm -rf
 
 # Program settings
 SRC = sample_app.c
@@ -30,4 +31,4 @@ obj:$(SRC)
 	$(CC) $(SRC) -c -o $(OBJ) $(CFLAGS) $(INCLUDE)
 
 clean:
-	rm -rf $(ASM) $(OBJ) $(ARTIFACT)
+	$(RM) $(ASM) $(OBJ) $(ARTIFACT)
