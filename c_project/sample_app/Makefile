@@ -3,8 +3,8 @@ ARTIFACT = sample_app
 
 # Program settings
 SRC = sample_app.c
-ASM = sample_app.asm
-OBJ = sample_app.obj
+ASM = sample_app.s
+OBJ = sample_app.o
 
 # Build settings
 CC = gcc

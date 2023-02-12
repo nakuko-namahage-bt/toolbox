@@ -3,8 +3,8 @@ ARTIFACT = libsample.so
 
 # Program settings
 SRC = sample_lib.c
-ASM = sample_lib.asm
-OBJ = sample_lib.obj
+ASM = sample_lib.s
+OBJ = sample_lib.o
 
 # Build settings
 CC = gcc
