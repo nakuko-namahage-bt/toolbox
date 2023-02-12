@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    // Seach arguments location
+    // Search arguments location
     argc -= optind;     // Number of arguments
     argv += optind;     // Pointer of first atguments
     if (argc != ARG_NUM) {
