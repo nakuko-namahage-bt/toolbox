@@ -21,9 +21,9 @@ $ sample_app [-o operation] num1 num2
 
 ## ARGUMENTS/OPTIONS
 ----------------------------------------
-- num1  
+- `num1`  
     演算対象の整数1つ目 (int)
-- num2  
+- `num2`  
     演算対象の整数2つ目 (int)
 - `-o operation`  
     実行する演算を指定する。operationには以下の数を指定する。
