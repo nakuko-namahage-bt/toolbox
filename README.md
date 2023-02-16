@@ -10,6 +10,7 @@
 - [Git](git)
 - [Google](google)
 - [Python](python)
+- [Regular expression](regular_expression)
 - [Shortcut](shortcut)
 - [VSCode](vscode)
 
