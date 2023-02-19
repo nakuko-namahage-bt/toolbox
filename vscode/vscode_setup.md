@@ -70,7 +70,7 @@
 - 例：Numpy形式のdocstringの定義。`_dc`と入力すると候補に出るので、`Enter`で置き換わる ($0：最終カーソル位置) 。
 ```json
 "np_docstring": {
-    "prefix": "_dc"
+    "prefix": "_dc",
     "body": [
         "$0\"\"\"brief discription.\n",
         "main discription.\n",
