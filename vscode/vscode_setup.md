@@ -64,7 +64,32 @@
 - editor.showUnused -> Uncheck
 
 ### ユーザスニペット
-- `File -> Preference -> Configure User Snippets` で言語ごとのスニペット(テキストフォーマット)を設定。
+- `File -> Preference -> Configure User Snippets` でファイル種別ごとのスニペット(テキストフォーマット)を設定。
+- 任意のファイルで使用できるスニペットは`New Global Snippets file...`で作成する。
+- 作成済みのユーザスニペットは`Existing Snippets`と表示される。
+- 例：Numpy形式のdocstringの定義。`_dc`と入力すると候補に出るので、`Enter`で置き換わる ($0：最終カーソル位置) 。
+```json
+"np_docstring": {
+    "prefix": "_dc"
+    "body": [
+        "$0\"\"\"brief discription.\n",
+        "main discription.\n",
+        "Parameters",
+        "----------",
+        "val : type",
+        "\tdiscription.\n",
+        "Returns",
+        "-------",
+        "val : type",
+        "\tdiscription.\n",
+        "Notes",
+        "-----",
+        "- supplement\n",
+        "\"\"\""
+    ],
+    "description": "numpy docstring"
+}
+```
 
 ### C/C++設定
 - ワークスペースを開く
