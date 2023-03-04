@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
 
     // Search arguments location
     argc -= optind;     // Number of arguments
-    argv += optind;     // Pointer of first atguments
+    argv += optind;     // Pointer of first arguments
     if (argc != ARG_NUM) {
         printf("Invalid arguments\n");
         ret = -1;
