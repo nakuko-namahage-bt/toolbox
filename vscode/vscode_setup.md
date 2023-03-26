@@ -56,6 +56,9 @@
 
 ## 詳細設定
 ----------------------------------------
+### 設定の優先順位
+-  Folder -> Workspace -> Userの順で設定が優先される(Userが最優先)。
+
 ### 共通設定
 - editor.fontSize -> 13
 - editor.fontFamily -> Consolas, monospace
