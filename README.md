@@ -11,6 +11,7 @@
 - [Git](git)
 - [Google](google)
 - [Python](python)
+- [QNX](qnx)
 - [Regular expression](regular_expression)
 - [Shortcut](shortcut)
 - [VSCode](vscode)
