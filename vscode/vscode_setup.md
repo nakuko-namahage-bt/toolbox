@@ -65,6 +65,7 @@
 - editor.tabSize -> 4
 - editor.renderWhitespace -> All
 - editor.showUnused -> Uncheck
+- terminal.integrated.defaultProfile.windows -> Command Prompt
 
 ### ユーザスニペット
 - `File -> Preference -> Configure User Snippets` でファイル種別ごとのスニペット(テキストフォーマット)を設定。
